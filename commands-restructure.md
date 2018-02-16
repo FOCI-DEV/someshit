@@ -1,8 +1,8 @@
 ---
-title: "Commands Restructure"
-date: 2017-12-12T00:57:40+03:00
-anchor: "Commands Restructure"
-weight: 1
+title: "{{ replace .TranslationBaseName "-" " " | Commands Strstructure }}"
+date: {{ .Date }}
+anchor: "{{ replace .TranslationBaseName "-" " " | Commands Strstructure | urlize }}"
+weight: 
 ---
 
 # Restructuring Identification's Custom Commands
